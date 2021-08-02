@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Projects from '../Projects/Projects'
 import Contact from '../Contact/Contact'
+import Homepage from '../Homepage/Homepage'
 import FACEBOOK from '../../assets/facebook-f_1.svg'
 import GITHUB from '../../assets/github_10.svg'
 import LINKDIN from '../../assets/linkedin_6.svg'
@@ -38,6 +39,9 @@ export default function Navbar() {
                 </Route>
                 <Route path="/Contact">
                     <Contact />
+                </Route>
+                <Route path="/">
+                    <Homepage />
                 </Route>
             </Switch>
         </Router>
