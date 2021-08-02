@@ -23,12 +23,12 @@ export default function Navbar() {
                         <Link to="/Contact" className='navlinks'>Contact</Link>
                     </div>
                     <div className='nav-socials'>
-                        <a target="_blank" href='https://www.linkedin.com/in/stephan-benchemoul-38879320b/'>
-                            <img src={LINKDIN} /></a>
-                        <a target="_blank" href='https://github.com/stephanbazbaz'>
-                            <img src={GITHUB} /></a>
-                        <a target="_blank" href='https://www.facebook.com/ethan.hearing.10/'>
-                            <img src={FACEBOOK} /></a>
+                        <a rel="noreferrer" target="_blank" href='https://www.linkedin.com/in/stephan-benchemoul-38879320b/'>
+                            <img alt='linkdin' src={LINKDIN} /></a>
+                        <a rel="noreferrer" target="_blank" href='https://github.com/stephanbazbaz'>
+                            <img alt='github' src={GITHUB} /></a>
+                        <a rel="noreferrer" target="_blank" href='https://www.facebook.com/ethan.hearing.10/'>
+                            <img alt='facebook' src={FACEBOOK} /></a>
                     </div>
                 </div>
             </div>
