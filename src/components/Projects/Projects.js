@@ -8,10 +8,10 @@ export default function Projects() {
             <div className='projects-row'>
                 {projectsArr.map((item, index) => {
                     return (
-                        <div key={index} className='projects-col demoObject'>
+                        <div key={index} className='projects-col'>
                             <div className='project-title'>{item.name}</div>
                             <div className='project-about'>Link:</div>
-                            <a className='project-text' rel="noreferrer" target="_blank" href={item.link} >{item.link}</a>
+                            <a className='project-text' rel="noreferrer" target="_blank" href={item.link} >{item.name}</a>
                             <div className='project-about'>Description:</div>
                             <div className='project-text'>{item.description}</div>
                             <div className='project-about'>Info:</div>

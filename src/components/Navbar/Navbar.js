@@ -12,14 +12,16 @@ import Homepage from '../Homepage/Homepage'
 import FACEBOOK from '../../assets/facebook-f_1.svg'
 import GITHUB from '../../assets/github_10.svg'
 import LINKDIN from '../../assets/linkedin_6.svg'
+import MAIL from '../../assets/mail-outline_1.svg'
 export default function Navbar() {
     return (
         <Router>
             <div className='navbar'>
                 <div className='navbar-container'>
                     <div className='navlinks-warp'>
-                        <Link to="/" className='stephan-title'>Stephan Benchemoul</Link>
+                        <Link to="/" className='navlinks'>Home</Link>
                         <Link to="/Projects" className='navlinks'>Projects</Link>
+                        <Link to="/About" className='navlinks'>About</Link>
                         <Link to="/Contact" className='navlinks'>Contact</Link>
                     </div>
                     <div className='nav-socials'>
@@ -29,21 +31,24 @@ export default function Navbar() {
                             <img alt='github' src={GITHUB} /></a>
                         <a rel="noreferrer" target="_blank" href='https://www.facebook.com/ethan.hearing.10/'>
                             <img alt='facebook' src={FACEBOOK} /></a>
+                        <a rel="noreferrer" href='mailto:stephan@pwm.co.il'>
+                            <img alt='facebook' src={MAIL} /></a>
                     </div>
                 </div>
             </div>
-
-            <Switch>
-                <Route path="/Projects">
-                    <Projects />
-                </Route>
-                <Route path="/Contact">
-                    <Contact />
-                </Route>
-                <Route path="/">
-                    <Homepage />
-                </Route>
-            </Switch>
+            <div className='margin-top'>
+                <Switch>
+                    <Route path="/Projects">
+                        <Projects />
+                    </Route>
+                    <Route path="/Contact">
+                        <Contact />
+                    </Route>
+                    <Route path="/">
+                        <Homepage />
+                    </Route>
+                </Switch>
+            </div>
         </Router>
     )
 }
