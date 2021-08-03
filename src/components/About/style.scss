@@ -1,4 +1,4 @@
-.about-container{
+.about-container {
     position: absolute;
     width: 80%;
     margin: auto;
@@ -6,4 +6,16 @@
     left: 0;
     bottom: 0;
     top: 60px;
+    text-align: center;
+    .about-text {
+    }
+    .cv-button {
+        padding: 8px;
+        background-color: #100083;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 12px 0 0 0;
+        color: white;
+    }
 }
