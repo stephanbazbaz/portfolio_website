@@ -29,19 +29,19 @@ let projectsArr = [
         name: 'HÖR',
         link: 'https://develop.d2n3m2yjy08u8r.amplifyapp.com/',
         description: 'Building the UI for the DJ live sets App - "HÖR"',
-        info: 'work in progress'
+        info: 'Front end build with React.js, work in progress'
     },
     {
         name: 'SupermarketApp',
         link: 'https://stephansupermarketapp.herokuapp.com/',
         description: 'Final project from my studies at Jhon bryce Academy. Full E-commerce website of a Vegan Supermarket.',
-        info: 'yada yada yada '
+        info: 'Front end build with React.js, Backend with Node.js and database with D-beaver, site hosted by Heroku.'
     },
     {
         name: 'VacationsApp',
         link: 'https://stark-basin-64884.herokuapp.com/',
-        description: 'bla bla bla',
-        info: 'yada yada yada'
+        description: 'Second project from my studies at Jhon bryce Academy emulating a vacation App where you can search & follow vacations.',
+        info: 'Front end build with React.js, Backend with Node.js and database with SQL, site hosted by Heroku. you can login to Admin to upload new vacations using admin username: adminadmin, password: admin1234.'
     }
 ]
 

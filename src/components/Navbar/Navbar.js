@@ -9,6 +9,7 @@ import {
 import Projects from '../Projects/Projects'
 import Contact from '../Contact/Contact'
 import Homepage from '../Homepage/Homepage'
+import About from '../About/About'
 import FACEBOOK from '../../assets/facebook-f_1.svg'
 import GITHUB from '../../assets/github_10.svg'
 import LINKDIN from '../../assets/linkedin_6.svg'
@@ -38,6 +39,9 @@ export default function Navbar() {
             </div>
             <div className='margin-top'>
                 <Switch>
+                <Route path="/About">
+                        <About />
+                    </Route>
                     <Route path="/Projects">
                         <Projects />
                     </Route>
