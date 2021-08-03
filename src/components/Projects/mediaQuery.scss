@@ -1,0 +1,22 @@
+@media only screen and (max-width: 728px) {
+    .projects-container {
+        width: 100%;
+
+        .projects-col {
+            border-radius: 15px !important;
+            width: 100% !important;
+            background-color: black !important;
+            // box-sizing: content-box !important;
+            margin: 0 0 20px 0 !important;
+            border: 1px solid #dddddd !important;
+            padding: 13px !important;
+
+            iframe {
+                .navlinks {
+                    display: flex;
+                    align-items: stretch;
+                }
+            }
+        }
+    }
+}

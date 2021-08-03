@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import './style.scss';
-
+import './mediaQuery.scss';
 export default function Projects() {
     return (
         <div className='projects-container'>
@@ -44,5 +44,3 @@ let projectsArr = [
         info: 'Front end build with React.js, Backend with Node.js and database with SQL, site hosted by Heroku. you can login to Admin to upload new vacations using admin username: adminadmin, password: admin1234.'
     }
 ]
-
-// Final project from my studies at Jhon bryce Academy. Full E-commerce website of a Vegan Supermarket.

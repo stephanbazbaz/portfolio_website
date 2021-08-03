@@ -7,6 +7,7 @@
     bottom: 0;
     top: 60px;
     text-align: center;
+    font-family: 'sixth';
     .about-text {
     }
     .cv-button {
@@ -17,5 +18,8 @@
         cursor: pointer;
         margin: 12px 0 0 0;
         color: white;
+    }
+    .cv-button:hover{
+        background-color: #0f0083be;
     }
 }

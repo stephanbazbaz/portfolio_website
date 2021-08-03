@@ -1,5 +1,6 @@
 import React from 'react'
 import './style.scss';
+import './mediaQuery.scss';
 import {
     BrowserRouter as Router,
     Switch,
