@@ -21,7 +21,7 @@ export default function Projects() {
                             <div className='project-about'>Info:</div>
                             <div className='project-text'>{item.info}</div>
                             {/* <iframe title={item.name} src={item.link}></iframe> */}
-                            <div><img src={item.pic}/></div>
+                            <div><img alt={item.name} src={item.pic}/></div>
                         </div>
                     )
                 })}
