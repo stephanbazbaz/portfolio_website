@@ -41,7 +41,7 @@ let projectsArr = [
         name: 'SupermarketApp',
         link: 'https://stephansupermarketapp.herokuapp.com/',
         description: 'Final project from my studies at Jhon bryce Academy. Full E-commerce website of a Vegan Supermarket.',
-        info: 'Front end build with React.js, Backend with Node.js and database with D-beaver, site hosted by Heroku.',
+        info: 'Front end build with React.js, Backend with Node.js and database with PostgreSQL, site hosted by Heroku.',
         pic: SUPERMARKET
     },
     {
