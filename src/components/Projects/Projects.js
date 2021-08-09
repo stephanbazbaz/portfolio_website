@@ -31,13 +31,6 @@ export default function Projects() {
 }
 let projectsArr = [
     {
-        name: 'HÖR',
-        link: 'work in progress',
-        description: 'Building the UI for the DJ live sets App - "HÖR"',
-        info: 'Front end build with React.js, work in progress',
-        pic: HOR
-    },
-    {
         name: 'SupermarketApp',
         link: 'https://stephansupermarketapp.herokuapp.com/',
         description: 'Final project from my studies at Jhon bryce Academy. Full E-commerce website of a Vegan Supermarket.',
@@ -50,5 +43,12 @@ let projectsArr = [
         description: 'Second project from my studies at Jhon bryce Academy emulating a vacation App where you can search & follow vacations.',
         info: 'Front end build with React.js, Backend with Node.js and database with SQL, site hosted by Heroku. you can login to Admin to upload new vacations using admin username: adminadmin, password: admin1234.',
         pic: VACATIONS
+    },
+    {
+        name: 'HÖR',
+        link: 'work in progress',
+        description: 'Building the UI for the DJ live sets App - "HÖR"',
+        info: 'Front end build with React.js, work in progress',
+        pic: HOR
     }
 ]
