@@ -32,7 +32,7 @@ export default function Projects() {
 let projectsArr = [
     {
         name: 'HÖR',
-        link: 'https://develop.d2n3m2yjy08u8r.amplifyapp.com/',
+        link: 'work in progress',
         description: 'Building the UI for the DJ live sets App - "HÖR"',
         info: 'Front end build with React.js, work in progress',
         pic: HOR
