@@ -1,12 +1,14 @@
 @media only screen and (max-width: 728px) {
-
     .navlinks-warp {
+        
+        display: flex;
+        justify-content: space-evenly;
         a {
-            margin: 0 10px 0 0 !important;
+            margin: 0 !important;
         }
     }
 
-    .nav-socials{
+    .nav-socials {
         display: none !important;
     }
 }
