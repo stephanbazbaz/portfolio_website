@@ -11,6 +11,7 @@ import Projects from '../Projects/Projects'
 import Contact from '../Contact/Contact'
 import Homepage from '../Homepage/Homepage'
 import About from '../About/About'
+import Sounds from '../sounds/Sounds'
 import FACEBOOK from '../../assets/facebook-f_1.svg'
 import GITHUB from '../../assets/github_10.svg'
 import LINKDIN from '../../assets/linkedin_6.svg'
@@ -23,6 +24,7 @@ export default function Navbar() {
                     <div className='navlinks-warp'>
                         <Link to="/" className='navlinks'>Home</Link>
                         <Link to="/Projects" className='navlinks'>Projects</Link>
+                        <Link to="/Sounds" className='navlinks'>Sounds</Link>
                         <Link to="/About" className='navlinks'>About</Link>
                         <Link to="/Contact" className='navlinks'>Contact</Link>
                     </div>
@@ -45,6 +47,9 @@ export default function Navbar() {
                     </Route>
                     <Route path="/Projects">
                         <Projects />
+                    </Route>
+                    <Route path="/Sounds">
+                        <Sounds />
                     </Route>
                     <Route path="/Contact">
                         <Contact />

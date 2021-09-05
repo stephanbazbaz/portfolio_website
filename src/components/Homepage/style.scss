@@ -1,10 +1,15 @@
 .homepage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    flex-direction: column;
     width: 80%;
     margin: auto;
     text-align: center;
     font-family: sixth;
     .stephan-title {
-        margin: 23% 0 0 0;
+        // margin: 23% 0 0 0;
         font-size: 50px;
     }
     .stephan-sub-title {
