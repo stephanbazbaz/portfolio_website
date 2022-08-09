@@ -23,7 +23,7 @@ export default function Navbar() {
                 <div className='navbar-container'>
                     <div className='navlinks-warp'>
                         <Link to="/" className='navlinks'>Home</Link>
-                        <Link to="/Projects" className='navlinks'>Projects</Link>
+                        {/* <Link to="/Projects" className='navlinks'>Projects</Link> */}
                         <Link to="/Sounds" className='navlinks'>Sounds</Link>
                         <Link to="/About" className='navlinks'>About</Link>
                         <Link to="/Contact" className='navlinks'>Contact</Link>
@@ -42,7 +42,7 @@ export default function Navbar() {
             </div>
             <div className='margin-top'>
                 <Switch>
-                <Route path="/About">
+                    <Route path="/About">
                         <About />
                     </Route>
                     <Route path="/Projects">
